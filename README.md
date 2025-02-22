@@ -3,7 +3,7 @@
 ### Contexto e Motivação:
 
 O grêmio estudantil é uma organização que representa os alunos, permitindo que participem de decisões da escola,
-organizem eventos e auxiliem na gestão escolar. Na Escola Rogério Lázaro Toccheton,
+organizem eventos e auxiliem na gestão escolar. Na Escola Rogério Lazáro Toccheton,
 as eleições para o grêmio eram realizadas através de formulários online, mas com algumas limitações,
 como a possibilidade de votos duplicados e falta de controle rigoroso.Diante disso, os alunos __Marcos Andrei de Souza Almeida__,
 __Victor Alexandre de Carvalho Pedroza__ e __Guilherme da Silva Barreto__ decidiram criar um software mais seguro e eficiente para garantir
