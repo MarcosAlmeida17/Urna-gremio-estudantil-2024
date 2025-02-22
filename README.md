@@ -1,4 +1,4 @@
-# Projeto urna para grêmio estudantil escola Rógerio Lázaro Toccheton.
+# Projeto urna para grêmio estudantil escola Rogério Lazáro Toccheton.
 
 ### Contexto e Motivação:
 
