@@ -13,7 +13,7 @@ O projeto foi desenvolvido para modernizar o processo eleitoral e foi aprovado p
 ### Funcionamento do Software:
  - Tela de Login: O sistema solicita o RA (Registro do Aluno) na tela inicial.
 O aluno só consegue acessar a próxima etapa se o RA for válido precisando ter sempre 3 zeros na frente e estiver registrado no banco de dados.
-!(./ProjetoUrna/img/TelaInicial.png)
+ !(./ProjetoUrna/img/TelaInicial.png)
  - Validação de Voto: Caso o RA esteja no banco de dados, o aluno é direcionado à tela de votação.
 Para garantir que ninguém vote mais de uma vez, o sistema bloqueia o RA após o voto, permitindo apenas uma votação por aluno.
  - Palavra-Chave para Administração: Para assegurar que membros da direção possam ter acesso mesmo em caso de erro ou necessidade de revisão,
