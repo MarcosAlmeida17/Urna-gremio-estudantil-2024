@@ -17,7 +17,7 @@ Validação de Voto: Caso o RA esteja no banco de dados, o aluno é direcionado 
 Para garantir que ninguém vote mais de uma vez, o sistema bloqueia o RA após o voto, permitindo apenas uma votação por aluno.
 Palavra-Chave para Administração: Para assegurar que membros da direção possam ter acesso mesmo em caso de erro ou necessidade de revisão,
 foi implementada uma palavra-chave secreta (__MGV__) que permite a entrada de administradores ao sistema.
-Finalização e Crédits: Após o voto, o software mostra os créditos com os nomes de todos os envolvidos no projeto e confirma a votação.
+Finalização e Créditos: Após o voto, o software mostra os créditos com os nomes de todos os envolvidos no projeto e confirma a votação.
 Se o aluno tentar votar novamente, o sistema impede a entrada, garantindo a integridade do processo.
 
 Banco de Dados:
