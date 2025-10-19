@@ -1,41 +1,55 @@
-# Projeto urna para grêmio estudantil escola Rogério Lázaro Toccheton.
+# 🗳️ Sistema de Urna Eletrônica para o Grêmio Estudantil  
+**Escola Rogério Lázaro Toccheton**  
 
-### Contexto e Motivação:
+## 📚 Contexto e Motivação  
+O **grêmio estudantil** é uma entidade que representa os alunos e promove a participação ativa nas decisões da escola, na organização de eventos e na melhoria da gestão escolar.  
 
-O grêmio estudantil é uma organização que representa os alunos, permitindo que participem de decisões da escola,
-organizem eventos e auxiliem na gestão escolar. Na Escola Rogério Lázaro Toccheton,
-as eleições para o grêmio eram realizadas através de formulários online, mas com algumas limitações,
-como a possibilidade de votos duplicados e falta de controle rigoroso.Diante disso, os alunos __Marcos Andrei de Souza Almeida__,
-__Victor Alexandre de Carvalho Pedroza__ e __Guilherme da Silva Barreto__ decidiram criar um software mais seguro e eficiente para garantir
-uma votação justa,onde cada aluno pudesse votar apenas uma vez e com maior proteção das informações.
-O projeto foi desenvolvido para modernizar o processo eleitoral e foi aprovado para uso nas eleições de 2024.
+Na **Escola Rogério Lázaro Toccheton**, as eleições para o grêmio eram realizadas por meio de formulários online, o que apresentava algumas limitações, como **possibilidade de votos duplicados** e **falta de controle sobre a autenticidade dos eleitores**.  
 
-### Funcionamento do Software:
- - Tela de Login: O sistema solicita o RA (Registro do Aluno) na tela inicial.
-O aluno só consegue acessar a próxima etapa se o RA for válido precisando ter sempre 3 zeros na frente e estiver registrado no banco de dados.
- - Validação de Voto: Caso o RA esteja no banco de dados, o aluno é direcionado à tela de votação.
-Para garantir que ninguém vote mais de uma vez, o sistema bloqueia o RA após o voto, permitindo apenas uma votação por aluno.
- - Palavra-Chave para Administração: Para assegurar que membros da direção possam ter acesso mesmo em caso de erro ou necessidade de revisão,
-foi implementada uma palavra-chave secreta (`__MGV__`) que permite a entrada de administradores ao sistema.
- - Finalização e Créditos: Após o voto, o software mostra os créditos com os nomes de todos os envolvidos no projeto e confirma a votação.
-Se o aluno tentar votar novamente, o sistema impede a entrada, garantindo a integridade do processo.
+Diante desse cenário, os alunos **Marcos Andrei de Souza Almeida**, **Victor Alexandre de Carvalho Pedroza** e **Guilherme da Silva Barreto** desenvolveram um **sistema de urna eletrônica** com o objetivo de tornar o processo mais **seguro, justo e transparente**, garantindo que cada aluno pudesse votar **apenas uma vez** e com **maior proteção das informações**.  
 
-### Banco de Dados:
-  Para garantir a segurança e a privacidade dos dados dos alunos,
-todos os dados no banco foram substituídos por informações fictícias criadas por IA.
-Isso evitou a exposição de dados reais, mantendo a confidencialidade.
+O projeto foi finalizado e **aprovado para uso oficial nas eleições do grêmio de 2024**.
 
-### Tecnologias Utilizadas:
- - Python: A linguagem principal utilizada para desenvolver o sistema de backend.
- - SQLite: Utilizado para armazenar os dados de alunos e votos, garantindo que os registros sejam acessados de forma eficiente.
- - DB Browser: Ferramenta utilizada para criar e gerenciar o banco de dados.
+---
 
-### Conclusão:
-  O projeto foi concluído no início de 2024 e foi aprovado pela direção da escola para ser utilizado nas eleições do grêmio estudantil.
-Durante a votação, o sistema funcionou sem problemas técnicos e foi considerado eficiente,
-ajudando a melhorar a organização e transparência do processo eleitoral.
+## ⚙️ Funcionamento do Sistema  
 
-### Equipe do Projeto:
-- Marcos Andrei de Souza Almeida
-- Victor Alexandre de Carvalho Pedroza
-- Guilherme da Silva Barreto
+### 🔐 Tela de Login  
+- O sistema solicita o **RA (Registro do Aluno)** como credencial de acesso.  
+- Apenas RAs válidos — com **formato padronizado (três zeros à frente)** e **registrados no banco de dados** — permitem o acesso à etapa de votação.  
+
+### 🗳️ Validação de Voto  
+- Após a autenticação, o aluno é direcionado para a **tela de votação**.  
+- O sistema **bloqueia automaticamente o RA** após o voto, impedindo múltiplas votações com o mesmo registro.  
+
+### 🔑 Acesso Administrativo  
+- Foi implementada uma **palavra-chave administrativa secreta (`__MGV__`)**, que permite o acesso restrito à equipe gestora da escola em caso de revisão ou correção técnica.  
+
+### ✅ Finalização e Créditos  
+- Após o voto, o sistema exibe uma mensagem de confirmação e apresenta os **créditos dos desenvolvedores**.  
+- Tentativas de novo acesso são bloqueadas, **garantindo a integridade e transparência** do processo eleitoral.  
+
+---
+
+## 🗂️ Banco de Dados  
+Para preservar a **segurança e a privacidade dos alunos**, todas as informações utilizadas no banco de dados foram **substituídas por dados fictícios gerados por IA**, evitando qualquer exposição de dados reais.  
+
+---
+
+## 🧠 Tecnologias Utilizadas  
+- **Python** → Linguagem principal utilizada no desenvolvimento do sistema.  
+- **SQLite** → Banco de dados leve e eficiente para armazenamento local de alunos e votos.  
+- **DB Browser for SQLite** → Ferramenta utilizada para criação, visualização e gerenciamento do banco de dados.  
+
+---
+
+## 🏁 Resultados e Conclusão  
+O projeto foi **concluído no início de 2024** e aprovado pela **direção escolar** para uso nas eleições do grêmio estudantil.  
+Durante o processo eleitoral, o sistema operou de forma **estável e confiável**, proporcionando **maior transparência, segurança e organização** à votação.  
+
+---
+
+## 👨‍💻 Equipe de Desenvolvimento  
+- **Marcos Andrei de Souza Almeida**  
+- **Victor Alexandre de Carvalho Pedroza**  
+- **Guilherme da Silva Barreto**  
